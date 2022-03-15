@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'http://gitlab1983.westus.cloudapp.azure.com/root/demoproject.git'
+        git 'https://github.com/AzizUrRehman1/jenkinspipeline.git'
       }
     }
     stage('Building image') {
